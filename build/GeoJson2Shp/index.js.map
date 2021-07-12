@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../src/GeoJson2Shp/index.js"],"sourcesContent":["﻿/**\r\n * @module GeoJson2Shp\r\n */\r\n\r\nexport { default as GeoJson2Shp } from './GeoJson2Shp.js';\r\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA,SAAS,OAAO,IAAI,WAAW,QAAQ,kBAAkB,CAAC;"}

@@ -1,0 +1,35 @@
+﻿{
+  "opts": {
+    "recurse": true,
+    "template": "config/jsdoc/api/templates/GeoJson2Shp"
+  },
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "(^|\\/|\\\\)_",
+    "include": [
+      "src/GeoJson2Shp"
+    ]
+  },
+  "plugins": [
+    "plugins/markdown",
+    "jsdoc-plugin-typescript"
+  ],
+  "typescript": {
+    "moduleRoot": "src"
+  },
+  "markdown": {
+    "parser": "gfm"
+  },
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true,
+    "default": {
+      "outputSourceFiles": false
+    },
+    "applicationName": "GeoJson2Shp"
+  },
+  "jsVersion": 180
+}

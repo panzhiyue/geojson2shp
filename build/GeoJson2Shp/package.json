@@ -1,0 +1,14 @@
+{
+  "name": "geojson2shp",
+  "version": "1.0.0",
+  "description": "矢量数据GeoJson格式转Shp文件",
+  "main": "server.js",
+  "author": {
+    "name": "PanZhiYue"
+  },
+  "dependencies": {
+    "pbf": "3.1.0",
+    "pixelworks": "1.1.0",
+    "rbush": "2.0.2"
+  }
+}

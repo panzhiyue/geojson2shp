@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+    <title>GeoJson2Shp v1.0.0 API - Class: PolyWriter</title>
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <script src="scripts/jquery.min.js"> </script>
+    <script src="scripts/bootstrap.bundle.min.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
+    <link type="text/css" rel="stylesheet" href="styles/gzsoft.css">
+    <link type="text/css" rel="stylesheet" href="styles/site.css">
+    <link type="text/css" rel="stylesheet" href="styles/header.css">
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+     <header class="header-wrapper main-header icl-header">
+     <nav class="navbar navbar-static-top">
+
+    <div class="nav-header">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+                <span class="dinlineblock width55 mr10">
+                    <img class="project-logo" src="logo.png" style="visibility: visible" id="logo">
+                </span>
+                <span class="project-title vm" id="title">
+                    GeoJson2Shp
+                 
+                </span>
+            </a>
+            <div id="suffix-title"></div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"><i class="fa fa-bars"></i></button>
+        </div>
+        <div class="collapse navbar-collapse navbar-custom-menu" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="overview-menu" id="headerIndex"><a href="../index.html" class="center">首页</a></li>
+                <li class="overview-menu" id="headerIndex"><a href="../examples/index.html" class="center">示例</a></li>
+                <li class="overview-menu" id="headerIndex"><a href="../apidoc/index.html" class="center">API</a></li>
+
+
+                <li class="dropdown nav-dropdown-menu guide-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">技术专题 <i class="fa fa-sort-down"></i></a>
+                    <ul class="dropdown-menu">
+                       
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+      <div id="wrap" class="row">
+          <div class="navigation " style="width:20%;">
+    <div class="search-wrapper">
+        <div class="search">
+            <input id="search" type="text" autocomplete="off" class="form-control input-sm" placeholder="Search Documentation">
+        </div>
+    </div>
+    <div class="navigation-list-wrapper">
+        <ul class="navigation-list search-empty">
+            <li class="item item-module" data-longname="module:GeoJson2Shp/Dbf/Field" data-name="geojson2shp/dbf/field">
+                <span class="title toggle">
+                    <span class="fa fa-plus mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_Dbf_Field.html">GeoJson2Shp​/Dbf​/Field</a></span>
+                </span>
+            <div class="member-list" data-type="typedefs">
+                <span class="subtitle">Typedefs</span>
+                <ul>
+                    <li data-name="field"><a href="module-GeoJson2Shp_Dbf_Field.html#~Field">Field</a>
+                </ul>
+            </div>
+            <div class="member-list" data-type="methods">
+                <span class="subtitle">Methods</span>
+                <ul>
+                    <li data-name="inherit"><a href="module-GeoJson2Shp_Dbf_Field.html#.inherit">inherit</a>
+                    <li data-name="multi"><a href="module-GeoJson2Shp_Dbf_Field.html#.multi">multi</a>
+                    <li data-name="obj"><a href="module-GeoJson2Shp_Dbf_Field.html#.obj">obj</a>
+                </ul>
+            </div>
+            <li class="item item-module" data-longname="module:GeoJson2Shp/Dbf/FieldSize" data-name="geojson2shp/dbf/fieldsize">
+                <span class="title toggle">
+                    <span class="fa fa-plus mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_Dbf_FieldSize.html">GeoJson2Shp​/Dbf​/FieldSize</a></span>
+                </span>
+            <div class="member-list" data-type="members">
+                <span class="subtitle">Members</span>
+                <ul>
+                    <li data-name="fieldsize"><a href="module-GeoJson2Shp_Dbf_FieldSize.html#~FieldSize">FieldSize</a>
+                </ul>
+            </div>
+            <li class="item item-module" data-longname="module:GeoJson2Shp/Dbf/FieldType" data-name="geojson2shp/dbf/fieldtype">
+                <span class="title toggle">
+                    <span class="fa fa-plus mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_Dbf_FieldType.html">GeoJson2Shp​/Dbf​/FieldType</a></span>
+                </span>
+            <div class="member-list" data-type="members">
+                <span class="subtitle">Members</span>
+                <ul>
+                    <li data-name="fieldtype"><a href="module-GeoJson2Shp_Dbf_FieldType.html#~FieldType">FieldType</a>
+                </ul>
+            </div>
+            <li class="item item-module" data-longname="module:GeoJson2Shp/Dbf/Lib" data-name="geojson2shp/dbf/lib">
+                <span class="title toggle">
+                    <span class="fa fa-plus mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_Dbf_Lib.html">GeoJson2Shp​/Dbf​/Lib</a></span>
+                </span>
+            <div class="member-list" data-type="methods">
+                <span class="subtitle">Methods</span>
+                <ul>
+                    <li data-name="lpad"><a href="module-GeoJson2Shp_Dbf_Lib.html#.lpad">lpad</a>
+                    <li data-name="rpad"><a href="module-GeoJson2Shp_Dbf_Lib.html#.rpad">rpad</a>
+                    <li data-name="stringtouint8array"><a href="module-GeoJson2Shp_Dbf_Lib.html#.stringToUint8Array">stringToUint8Array</a>
+                    <li data-name="writefield"><a href="module-GeoJson2Shp_Dbf_Lib.html#.writeField">writeField</a>
+                </ul>
+            </div>
+            <li class="item item-class" data-longname="module:GeoJson2Shp/Dbf/Write~Writer" data-name="geojson2shp/dbf/write~writer">
+                <span class="title toggle">
+                    <span class="fa fa-chevron-right mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_Dbf_Write-Writer.html">GeoJson2Shp​/Dbf​/Write​~Writer</a></span>
+                </span>
+            <div class="member-list" data-type="members">
+                <span class="subtitle">Members</span>
+                <ul>
+                    <li data-name="data_"><a href="module-GeoJson2Shp_Dbf_Write-Writer.html#data_">data_</a>
+                    <li data-name="field_meta_"><a href="module-GeoJson2Shp_Dbf_Write-Writer.html#field_meta_">field_meta_</a>
+                </ul>
+            </div>
+            <div class="member-list" data-type="methods">
+                <span class="subtitle">Methods</span>
+                <ul>
+                    <li data-name="getbytesperrecord"><a href="module-GeoJson2Shp_Dbf_Write-Writer.html#getBytesPerRecord">getBytesPerRecord</a>
+                    <li data-name="write"><a href="module-GeoJson2Shp_Dbf_Write-Writer.html#write">write</a>
+                    <li data-name="writefield_"><a href="module-GeoJson2Shp_Dbf_Write-Writer.html#writeField_">writeField_</a>
+                </ul>
+            </div>
+            <li class="item item-class" data-longname="module:GeoJson2Shp/GeoJson2Shp~GeoJson2Shp" data-name="geojson2shp/geojson2shp~geojson2shp">
+                <span class="title toggle">
+                    <span class="fa fa-chevron-right mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html">GeoJson2Shp​/GeoJson2Shp​~GeoJson2Shp</a></span>
+                </span>
+            <div class="member-list" data-type="members">
+                <span class="subtitle">Members</span>
+                <ul>
+                    <li data-name="geojson_"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#geojson_">geojson_</a>
+                </ul>
+            </div>
+            <div class="member-list" data-type="methods">
+                <span class="subtitle">Methods</span>
+                <ul>
+                    <li data-name="getmultipointoptions_"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#getMultiPointOptions_">getMultiPointOptions_</a>
+                    <li data-name="getpointoptions_"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#getPointOptions_">getPointOptions_</a>
+                    <li data-name="getpolygonoptions_"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#getPolygonOptions_">getPolygonOptions_</a>
+                    <li data-name="getpolylineoptions_"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#getPolylineOptions_">getPolylineOptions_</a>
+                    <li data-name="getshpwriter_"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#getShpWriter_">getShpWriter_</a>
+                    <li data-name="getwriteoptions_"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#getWriteOptions_">getWriteOptions_</a>
+                    <li data-name="justcoords_"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#justCoords_">justCoords_</a>
+                    <li data-name="justprops_"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#justProps_">justProps_</a>
+                    <li data-name="write_"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#write_">write_</a>
+                    <li data-name="writemultipoint"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#writeMultiPoint">writeMultiPoint</a>
+                    <li data-name="writepoint"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#writePoint">writePoint</a>
+                    <li data-name="writepolygon"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#writePolygon">writePolygon</a>
+                    <li data-name="writepolyline"><a href="module-GeoJson2Shp_GeoJson2Shp-GeoJson2Shp.html#writePolyline">writePolyline</a>
+                </ul>
+            </div>
+            <li class="item item-module" data-longname="module:GeoJson2Shp/Shp/Geometry" data-name="geojson2shp/shp/geometry">
+                <span class="title toggle">
+                    <span class="fa fa-plus mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_Shp_Geometry.html">GeoJson2Shp​/Shp​/Geometry</a></span>
+                </span>
+            <div class="member-list" data-type="typedefs">
+                <span class="subtitle">Typedefs</span>
+                <ul>
+                    <li data-name="coordinate"><a href="module-GeoJson2Shp_Shp_Geometry.html#~Coordinate">Coordinate</a>
+                    <li data-name="geometry"><a href="module-GeoJson2Shp_Shp_Geometry.html#~Geometry">Geometry</a>
+                </ul>
+            </div>
+            <li class="item item-module" data-longname="module:GeoJson2Shp/Shp/GeometryType" data-name="geojson2shp/shp/geometrytype">
+                <span class="title toggle">
+                    <span class="fa fa-plus mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_Shp_GeometryType.html">GeoJson2Shp​/Shp​/GeometryType</a></span>
+                </span>
+            <div class="member-list" data-type="members">
+                <span class="subtitle">Members</span>
+                <ul>
+                    <li data-name="geometrytype"><a href="module-GeoJson2Shp_Shp_GeometryType.html#~geometryType">geometryType</a>
+                </ul>
+            </div>
+            <li class="item item-class" data-longname="module:GeoJson2Shp/Shp/MultiPointWriter~MultiPointWriter" data-name="geojson2shp/shp/multipointwriter~multipointwriter">
+                <span class="title toggle">
+                    <span class="fa fa-chevron-right mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html">GeoJson2Shp​/Shp​/MultiPointWriter​~MultiPointWriter</a></span>
+                </span>
+            <div class="member-list" data-type="members">
+                <span class="subtitle">Members</span>
+                <ul>
+                    <li data-name="geometries_"><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html#geometries_">geometries_</a>
+                    <li data-name="type_"><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html#type_">type_</a>
+                </ul>
+            </div>
+            <div class="member-list" data-type="methods">
+                <span class="subtitle">Methods</span>
+                <ul>
+                    <li data-name="getextent"><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html#getExtent">getExtent</a>
+                    <li data-name="getflattened"><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html#getFlattened">getFlattened</a>
+                    <li data-name="getpartcount"><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html#getPartCount">getPartCount</a>
+                    <li data-name="getshplength"><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html#getShpLength">getShpLength</a>
+                    <li data-name="getshxlength"><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html#getShxLength">getShxLength</a>
+                    <li data-name="write"><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html#write">write</a>
+                    <li data-name="writeextent"><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html#writeExtent">writeExtent</a>
+                    <li data-name="writegeometry"><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html#writeGeometry">writeGeometry</a>
+                    <li data-name="writeheader"><a href="module-GeoJson2Shp_Shp_MultiPointWriter-MultiPointWriter.html#writeHeader">writeHeader</a>
+                </ul>
+            </div>
+            <li class="item item-class" data-longname="module:GeoJson2Shp/Shp/PointsWriter~PointWriter" data-name="geojson2shp/shp/pointswriter~pointwriter">
+                <span class="title toggle">
+                    <span class="fa fa-chevron-right mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html">GeoJson2Shp​/Shp​/PointsWriter​~PointWriter</a></span>
+                </span>
+            <div class="member-list" data-type="members">
+                <span class="subtitle">Members</span>
+                <ul>
+                    <li data-name="geometries_"><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html#geometries_">geometries_</a>
+                    <li data-name="type_"><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html#type_">type_</a>
+                </ul>
+            </div>
+            <div class="member-list" data-type="methods">
+                <span class="subtitle">Methods</span>
+                <ul>
+                    <li data-name="getextent"><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html#getExtent">getExtent</a>
+                    <li data-name="getflattened"><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html#getFlattened">getFlattened</a>
+                    <li data-name="getpartcount"><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html#getPartCount">getPartCount</a>
+                    <li data-name="getshplength"><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html#getShpLength">getShpLength</a>
+                    <li data-name="getshxlength"><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html#getShxLength">getShxLength</a>
+                    <li data-name="write"><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html#write">write</a>
+                    <li data-name="writeextent"><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html#writeExtent">writeExtent</a>
+                    <li data-name="writegeometry"><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html#writeGeometry">writeGeometry</a>
+                    <li data-name="writeheader"><a href="module-GeoJson2Shp_Shp_PointsWriter-PointWriter.html#writeHeader">writeHeader</a>
+                </ul>
+            </div>
+            <li class="item item-class" data-longname="module:GeoJson2Shp/Shp/PolyWriter~PolyWriter" data-name="geojson2shp/shp/polywriter~polywriter">
+                <span class="title toggle">
+                    <span class="fa fa-chevron-right mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html">GeoJson2Shp​/Shp​/PolyWriter​~PolyWriter</a></span>
+                </span>
+            <div class="member-list" data-type="members">
+                <span class="subtitle">Members</span>
+                <ul>
+                    <li data-name="geometries_"><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html#geometries_">geometries_</a>
+                    <li data-name="type_"><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html#type_">type_</a>
+                </ul>
+            </div>
+            <div class="member-list" data-type="methods">
+                <span class="subtitle">Methods</span>
+                <ul>
+                    <li data-name="getextent"><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html#getExtent">getExtent</a>
+                    <li data-name="getflattened"><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html#getFlattened">getFlattened</a>
+                    <li data-name="getpartcount"><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html#getPartCount">getPartCount</a>
+                    <li data-name="getshplength"><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html#getShpLength">getShpLength</a>
+                    <li data-name="getshxlength"><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html#getShxLength">getShxLength</a>
+                    <li data-name="write"><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html#write">write</a>
+                    <li data-name="writeextent"><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html#writeExtent">writeExtent</a>
+                    <li data-name="writegeometry"><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html#writeGeometry">writeGeometry</a>
+                    <li data-name="writeheader"><a href="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html#writeHeader">writeHeader</a>
+                </ul>
+            </div>
+            <li class="item item-class" data-longname="module:GeoJson2Shp/Shp/Writer~Writer" data-name="geojson2shp/shp/writer~writer">
+                <span class="title toggle">
+                    <span class="fa fa-chevron-right mr-2 mt-1"></span>
+                    <span><a href="module-GeoJson2Shp_Shp_Writer-Writer.html">GeoJson2Shp​/Shp​/Writer​~Writer</a></span>
+                </span>
+            <div class="member-list" data-type="members">
+                <span class="subtitle">Members</span>
+                <ul>
+                    <li data-name="geometries_"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#geometries_">geometries_</a>
+                    <li data-name="type_"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#type_">type_</a>
+                </ul>
+            </div>
+            <div class="member-list" data-type="methods">
+                <span class="subtitle">Methods</span>
+                <ul>
+                    <li data-name="getextent"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#getExtent">getExtent</a>
+                    <li data-name="getflattened"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#getFlattened">getFlattened</a>
+                    <li data-name="getpartcount"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#getPartCount">getPartCount</a>
+                    <li data-name="getshplength"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#getShpLength">getShpLength</a>
+                    <li data-name="getshxlength"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#getShxLength">getShxLength</a>
+                    <li data-name="write"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#write">write</a>
+                    <li data-name="writeextent"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#writeExtent">writeExtent</a>
+                    <li data-name="writegeometry"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#writeGeometry">writeGeometry</a>
+                    <li data-name="writeheader"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#writeHeader">writeHeader</a>
+                </ul>
+            </div>
+        </ul>
+    </div>
+</div>
+          <div class="main" style="margin-left:20%;width:100%;">
+              <h1 class="page-title" data-filename="module-GeoJson2Shp_Shp_PolyWriter-PolyWriter.html">Class: PolyWriter</h1>
+              <div id="latest-check" class="alert alert-warning alert-dismissible" role="alert" style="display:none">
+                <button id="latest-dismiss" type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                This documentation is for GZSoft v<span id="package-version">1.0.0</span>. The <a id="latest-link" href="#" class="alert-link">latest</a> is v<span id="latest-version"></span>.
+              </div>
+              
+
+
+
+<section class="content">
+
+<header>
+    <h2 class="my-3">
+        <span class="ancestors"><a href="module-GeoJson2Shp_Shp_PolyWriter.html">GeoJson2Shp/Shp/PolyWriter</a>~</span>PolyWriter
+    </h2>
+    <br>
+    
+    <div class="row p-3 ">
+ 
+    
+      <div class="class-description col-lg-12 align-self-center pl-0"><p>线,面写入器 </p>
+<h2 id="shp-">shp文件点内容</h2>
+<pre class="prettyprint source"><code>        |=======================|  ^</code></pre><p>00h /      0| 记录号(表示第几个图斑)|  |
+            | 从1开始               |  |
+            |-----------------------|头信息
+01h /      4| 内容所占长度          |  |
+            |=======================|--v
+02h /      8| 几何图形类型          |  ^
+            |-----------------------|  |
+03h /     12| x最小值               |  |
+            |-----------------------|  |
+04h /     20| y最小值               |  |
+            |-----------------------|  |
+05h /     28| x最大值               |  |
+            |-----------------------|  |
+06h /     36| y最大值               |  |
+            |-----------------------|  |
+07h /     44| 子图形数量            |  |
+            |-----------------------|内容
+08h /     48| 坐标点数量            |  |
+            |-----------------------|  |
+            | ................      |  |
+09h /       | 子图形起始坐标索引    |  |
+52+         | 从0开始               |  |
+partIndex<em>4 | ................      |  |
+            |-----------------------|  |
+0Ah /       | ................      |  |
+52+         | 坐标点                |  |
+partIndex</em>4+| ................      |  |
+coorIndex*16|                       |  |</p>
+<pre class="prettyprint source"><code>        |-----------------------|  v</code></pre><hr></div>
+    
+    </div>
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        <dl>
+            
+<dt class="">
+    
+    <div class="nameContainer inherited">
+        <div class="anchor" id="PolyWriter">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>new PolyWriter<span class="signature">()</span>
+            
+                <span class="inherited">inherited</span>
+            
+            
+
+        </h4>
+        
+        <div class="tag-source">
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/PolyWriter.js">Shp/PolyWriter.js</a>,
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/PolyWriter.js#L45">line 45</a>
+        </div>
+        
+    </div>
+    
+    
+</dt>
+<dd class="">
+
+
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        </dl>
+    
+    </div>
+
+    
+
+    
+        <h3 class="subsection-title">Extends</h3>
+
+        <ul>
+            <li><a href="module-GeoJson2Shp_Shp_Writer-Writer.html">module:GeoJson2Shp/Shp/Writer~Writer</a></li>
+        </ul>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Members</h3>
+
+        <dl>
+            
+<dt class="">
+    <div class="nameContainer">
+        <div class="anchor" id="geometries_">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>geometries_<span class="type-signature type array.<module:geojson2shp/shp/geometry~geometry>">{Array.&lt;<a href="module-GeoJson2Shp_Shp_Geometry.html#~Geometry">module:GeoJson2Shp/Shp/Geometry~Geometry</a>>}</span> 
+            
+
+        </h4>
+    </div>
+    
+</dt>
+<dd class="">
+    
+    <div class="description">
+        <p>图形数组</p>
+    </div>
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+</dd>
+
+        
+            
+<dt class="">
+    <div class="nameContainer">
+        <div class="anchor" id="type_">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>type_<span class="type-signature type module:geojson2shp/shp/geometrytype">{<a href="module-GeoJson2Shp_Shp_GeometryType.html">module:GeoJson2Shp/Shp/GeometryType</a>}</span> 
+            
+
+        </h4>
+    </div>
+    
+</dt>
+<dd class="">
+    
+    <div class="description">
+        <p>图形类型</p>
+    </div>
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+</dd>
+
+        </dl>
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        <dl>
+            
+            
+<dt class="">
+    
+    <div class="nameContainer">
+        <div class="anchor" id="getExtent">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>getExtent<span class="signature">()</span><span class="fa fa-arrow-circle-right"></span><span class="type-signature returnType">{module:GeoJson2Sho/Shp/Extent~Extent}</span>
+            
+                <span class="inherited"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#getExtent">inherited</a></span>
+            
+            
+
+        </h4>
+        
+        <div class="tag-source">
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js">Shp/Writer.js</a>,
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js#L214">line 214</a>
+        </div>
+        
+    </div>
+    
+    
+</dt>
+<dd class="">
+
+
+
+    
+    <div class="description">
+        <p>获取范围</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+
+<h5>Returns:</h5>
+范围
+<br />
+
+    
+
+    
+</dd>
+
+        
+            
+            
+<dt class="">
+    
+    <div class="nameContainer">
+        <div class="anchor" id="getFlattened">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>getFlattened<span class="signature">()</span><span class="fa fa-arrow-circle-right"></span><span class="type-signature returnType">{Array.&lt;<a href="module-GeoJson2Shp_Shp_Geometry.html#~Coordinate">module:GeoJson2Shp/Shp/Geometry~Coordinate</a>>}</span>
+            
+                <span class="inherited"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#getFlattened">inherited</a></span>
+            
+            
+
+        </h4>
+        
+        <div class="tag-source">
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js">Shp/Writer.js</a>,
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js#L230">line 230</a>
+        </div>
+        
+    </div>
+    
+    
+</dt>
+<dd class="">
+
+
+
+    
+    <div class="description">
+        <p>获取平面坐标</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+
+<h5>Returns:</h5>
+平面坐标
+<br />
+
+    
+
+    
+</dd>
+
+        
+            
+            
+<dt class="">
+    
+    <div class="nameContainer">
+        <div class="anchor" id="getPartCount">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>getPartCount<span class="signature">(geometries)</span><span class="fa fa-arrow-circle-right"></span><span class="type-signature returnType">{number}</span>
+            
+                <span class="inherited"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#getPartCount">inherited</a></span>
+            
+            
+
+        </h4>
+        
+        <div class="tag-source">
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js">Shp/Writer.js</a>,
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js#L223">line 223</a>
+        </div>
+        
+    </div>
+    
+    
+</dt>
+<dd class="">
+
+
+
+    
+    <div class="description">
+        <p>获取子图形数量</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr class="">
+            
+                <td class="name"><code>geometries</code></td>
+            
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+                
+            
+            </td>
+
+            
+
+            <td  class="description last">
+                
+                </td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+
+<h5>Returns:</h5>
+子图形数量
+<br />
+
+    
+
+    
+</dd>
+
+        
+            
+            
+<dt class="">
+    
+    <div class="nameContainer">
+        <div class="anchor" id="getShpLength">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>getShpLength<span class="signature">()</span><span class="fa fa-arrow-circle-right"></span><span class="type-signature returnType">{number}</span>
+            
+                <span class="inherited"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#getShpLength">inherited</a></span>
+            
+            
+
+        </h4>
+        
+        <div class="tag-source">
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js">Shp/Writer.js</a>,
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js#L199">line 199</a>
+        </div>
+        
+    </div>
+    
+    
+</dt>
+<dd class="">
+
+
+
+    
+    <div class="description">
+        <p>获取shp文件长度</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+
+<h5>Returns:</h5>
+shp文件长度
+<br />
+
+    
+
+    
+</dd>
+
+        
+            
+            
+<dt class="">
+    
+    <div class="nameContainer">
+        <div class="anchor" id="getShxLength">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>getShxLength<span class="signature">()</span><span class="fa fa-arrow-circle-right"></span><span class="type-signature returnType">{number}</span>
+            
+                <span class="inherited"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#getShxLength">inherited</a></span>
+            
+            
+
+        </h4>
+        
+        <div class="tag-source">
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js">Shp/Writer.js</a>,
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js#L207">line 207</a>
+        </div>
+        
+    </div>
+    
+    
+</dt>
+<dd class="">
+
+
+
+    
+    <div class="description">
+        <p>获取shx文件长度</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+
+<h5>Returns:</h5>
+shx文件长度
+<br />
+
+    
+
+    
+</dd>
+
+        
+            
+            
+<dt class="">
+    
+    <div class="nameContainer">
+        <div class="anchor" id="write">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>write<span class="signature">(callback)</span>
+            
+                <span class="inherited"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#write">inherited</a></span>
+            
+            
+
+        </h4>
+        
+        <div class="tag-source">
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js">Shp/Writer.js</a>,
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js#L103">line 103</a>
+        </div>
+        
+    </div>
+    
+    
+</dt>
+<dd class="">
+
+
+
+    
+    <div class="description">
+        <p>写入文件</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr class="">
+            
+                <td class="name"><code>callback</code></td>
+            
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+                
+            
+            </td>
+
+            
+
+            <td  class="description last">
+                
+                <p>回调函数</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        
+            
+            
+<dt class="">
+    
+    <div class="nameContainer">
+        <div class="anchor" id="writeExtent">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>writeExtent<span class="signature">(extent, view)</span>
+            
+                <span class="inherited"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#writeExtent">inherited</a></span>
+            
+            
+
+        </h4>
+        
+        <div class="tag-source">
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js">Shp/Writer.js</a>,
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js#L179">line 179</a>
+        </div>
+        
+    </div>
+    
+    
+</dt>
+<dd class="">
+
+
+
+    
+    <div class="description">
+        <p>写入范围信息</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr class="">
+            
+                <td class="name"><code>extent</code></td>
+            
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">module:GeoJson2Shp/Shp/Extent~Extent</span>
+
+
+                
+            
+            </td>
+
+            
+
+            <td  class="description last">
+                
+                <p>范围</p></td>
+        </tr>
+	
+	
+	
+        <tr class="">
+            
+                <td class="name"><code>view</code></td>
+            
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">DataView</span>
+
+
+                
+            
+            </td>
+
+            
+
+            <td  class="description last">
+                
+                <p>视图</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        
+            
+            
+<dt class="">
+    
+    <div class="nameContainer">
+        <div class="anchor" id="writeGeometry">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>writeGeometry<span class="signature">(shpView, shxView)</span>
+            
+                <span class="inherited"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#writeGeometry">inherited</a></span>
+            
+            
+
+        </h4>
+        
+        <div class="tag-source">
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js">Shp/Writer.js</a>,
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js#L191">line 191</a>
+        </div>
+        
+    </div>
+    
+    
+</dt>
+<dd class="">
+
+
+
+    
+    <div class="description">
+        <p>写入几何图形部分</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr class="">
+            
+                <td class="name"><code>shpView</code></td>
+            
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+                
+            
+            </td>
+
+            
+
+            <td  class="description last">
+                
+                </td>
+        </tr>
+	
+	
+	
+        <tr class="">
+            
+                <td class="name"><code>shxView</code></td>
+            
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+                
+            
+            </td>
+
+            
+
+            <td  class="description last">
+                
+                </td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        
+            
+            
+<dt class="">
+    
+    <div class="nameContainer">
+        <div class="anchor" id="writeHeader">
+        </div>
+        <h4 class="name">
+            <span class="type-signature"></span>writeHeader<span class="signature">(view)</span>
+            
+                <span class="inherited"><a href="module-GeoJson2Shp_Shp_Writer-Writer.html#writeHeader">inherited</a></span>
+            
+            
+
+        </h4>
+        
+        <div class="tag-source">
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js">Shp/Writer.js</a>,
+            <a href="https://github.com/gzsoft/gzsoft/blob/v1.0.0/src/gzsoft/Shp/Writer.js#L168">line 168</a>
+        </div>
+        
+    </div>
+    
+    
+</dt>
+<dd class="">
+
+
+
+    
+    <div class="description">
+        <p>写入文件头信息</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr class="">
+            
+                <td class="name"><code>view</code></td>
+            
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">DataView</span>
+
+
+                
+            
+            </td>
+
+            
+
+            <td  class="description last">
+                
+                <p>视图</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        </dl>
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+          </div>
+      </div>
+      <script>prettyPrint();</script>
+      <script src="scripts/linenumber.js"></script>
+      <script src="scripts/main.js"></script>
+    </div>
+  </body>
+</html>
