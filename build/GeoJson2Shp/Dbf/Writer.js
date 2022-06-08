@@ -171,7 +171,7 @@ Writer.prototype.write = function write (callback) {
     // 文件头信息长度(2)
     var headerLength = fieldDescLength + 32 + 1;
     view.setUint16(8, headerLength, true);
-    // 每条记录的长度
+    // 每条记录的长度(2)
     view.setUint16(10, bytesPerRecord, true);
 
     // 描述信息结束(1)

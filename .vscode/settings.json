@@ -1,0 +1,6 @@
+{
+    "i18n-ally.localesPaths": [
+        "src/Test/extend/bootstrap-table/locale",
+        "config/examples/js/extend/bootstrap-table/locale"
+    ]
+}

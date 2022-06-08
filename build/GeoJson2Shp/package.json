@@ -1,8 +1,8 @@
 {
-  "name": "geojson2shp",
+  "name": "@panzhiyue/geojson2shp",
   "version": "1.0.0",
   "description": "矢量数据GeoJson格式转Shp文件",
-  "main": "server.js",
+  "main": "./index.js",
   "author": {
     "name": "PanZhiYue"
   },
